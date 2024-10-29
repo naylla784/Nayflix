@@ -1,0 +1,61 @@
+body {
+    background:lightblue;
+    color:black;
+    margin: 0px;
+    font-family: "Playfair Display", serif;
+    margin-bottom: 65px;
+}
+
+ header{
+    border-bottom: solid 2px blue;
+    padding: 20px;
+    font-size: 32px;
+    color: blue
+ } 
+
+.chamada {
+    background: rgb(6, 190, 233);
+    padding-bottom: 80px;
+    padding-top: 80px;
+    display: flex;
+    justify-content: center;
+}
+
+
+.chamada-texto {
+    margin-right: 5%;
+}
+
+h1 {
+    font-size: 35px;
+}
+
+p {
+font-size: 25px;
+}
+
+img{
+    height: 200px;
+}
+.categorias-vídeos {
+    display: flex;
+    overflow-x: auto;
+    gap: 10px
+}
+
+.categoria {
+    padding-left: 50px;
+    padding-right: 20px;
+    margin-top: 65px;
+}
+
+.categorias-vídeos img{
+    opacity: 0.5px;
+}
+.categorias-vídeos img:hover{
+    opacity: 1.0;
+    border: 3px solid cyan
+}
+.categoria h2{
+    color:blue
+}
